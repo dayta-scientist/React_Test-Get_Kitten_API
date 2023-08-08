@@ -7,7 +7,6 @@ export const useCatImage = ({ fact }) => {
 
   const fetchImage = async () => {
     const firstWord = fact.split(' ', 1).join(' ')
-    console.log(firstWord)
     try {
       const response = await fetch(`https://cataas.com/cat/says/${firstWord}?size=50&color=red&json=true`)
       if(!response.ok) {
