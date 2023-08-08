@@ -1,8 +1,12 @@
-# React + Vite
+# Technical test for React Juniors and Trainees in Live Coding.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+APIs:
+• Random Facts: https://catfact.ninja/fact
 
-Currently, two official plugins are available:
+• Random image: https://cataas.com/cat/says/hello
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+• Retrieves a random cat fact from the first API
+
+• Retrieve the first word of the fact
+
+• Show a picture of a cat with the first word.
